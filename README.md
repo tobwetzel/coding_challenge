@@ -4,8 +4,8 @@ Thank you for taking part in this coding challenge. For this challenge you will 
 
 To be able to participate in the challenge you need to make sure to have all the pre-requisites in place:
 
-- Nodejs v16.9+
-- Npm v7.21+
+- Nodejs v16.9
+- Npm v7.21
 - Docker
 - Git
 - IDE (e.g. VSCode)
