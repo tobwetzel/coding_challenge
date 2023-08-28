@@ -8,4 +8,11 @@ export default class StartupMapper {
       dateFounded: new Date(startup.dateFounded),
     };
   }
+  public static mapList(startups: StartupDTO[]): Startup[] {
+    return startups.map(startup=>({
+      ...startup,
+      dateCreated: new Date(startup.dateCreated),
+      dateFounded: new Date(startup.dateFounded),
+    }));
+  }
 }
